@@ -14,12 +14,38 @@
 }
 body {
     font-family: Verdana, Geneva, Tahoma, sans-serif, sans-serif;
+    background: linear-gradient(135deg, #1a1a2e, 0%, #16213c 100%);
+    min-height: 100vh;
+    padding: 40px 20px;
     line-height: 1.5em;
-    margin: 0;
-    padding: 0;
+    color: var(--fundo-card);
+}
+.container {
+    max-width: 800px;
+    margin: 0 auto; 
     background-color: var(--fundo-principal);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+h1{
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: var(--destaque);
+    background: linear-gradient(90deg, #00d9ff, 0%, #a855f7 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.subtitle 
+{
+    text-align: center;
+    font-size: 1.5rem;
+    margin-bottom: 30px;
     color: var(--texto);
 }
+
 header {
     background-color: var(--destaque);
     color: var(--texto);
